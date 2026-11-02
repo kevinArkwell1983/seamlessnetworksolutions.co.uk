@@ -1,557 +1,576 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seamless Network Solutions | Smart Networks for Smart Homes</title>
-  <meta name="description" content="Seamless Network Solutions provides smart home networking, Wi-Fi, CCTV and wireless access point installation for homes in Birmingham and the West Midlands." />
-  <meta name="keywords" content="Seamless Network Solutions, Birmingham Wi-Fi, home networking, CCTV installation, smart home networks, wireless access points" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Seamless Network Solutions" />
-  <meta property="og:description" content="Smart home networking and secure connectivity solutions for homes in Birmingham and the West Midlands." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://seamlessnetworksolutions.co.uk/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Seamless Network Solutions" />
-  <meta name="twitter:description" content="Smart home networking, Wi-Fi, and CCTV solutions for modern homes." />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seamless Network Solutions | Smart Networks for Smart Homes</title>
+    <meta
+      name="description"
+      content="Seamless Network Solutions provides smart home networking, Wi‑Fi, CCTV and wireless access point installation for homes in Birmingham and the West Midlands."
+    />
+    <meta
+      name="keywords"
+      content="Seamless Network Solutions, Birmingham Wi-Fi, home networking, CCTV installation, smart home networks, wireless access points"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Seamless Network Solutions" />
+    <meta property="og:description" content="Smart home networking and secure connectivity solutions for homes in Birmingham and the West Midlands." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seamlessnetworksolutions.co.uk/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Seamless Network Solutions" />
+    <meta name="twitter:description" content="Smart home networking, Wi‑Fi, and CCTV solutions for modern homes." />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Seamless Network Solutions",
-    "url": "https://seamlessnetworksolutions.co.uk/",
-    "telephone": "+447463590900",
-    "email": "kevin-arkwell@seamlessnetworksolutions.co.uk",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Birmingham",
-      "addressRegion": "West Midlands",
-      "addressCountry": "GB"
-    },
-    "areaServed": "Birmingham, West Midlands",
-    "description": "Smart home networking, Wi-Fi and CCTV installation services for homes in Birmingham and surrounding areas.",
-    "priceRange": "££"
-  }
-  </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Seamless Network Solutions",
+        "url": "https://seamlessnetworksolutions.co.uk/",
+        "telephone": "+447463590900",
+        "email": "kevin-arkwell@seamlessnetworksolutions.co.uk",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Birmingham",
+          "addressRegion": "West Midlands",
+          "addressCountry": "GB"
+        },
+        "areaServed": "Birmingham, West Midlands",
+        "description": "Smart home networking, Wi‑Fi and CCTV installation services for homes in Birmingham and surrounding areas.",
+        "priceRange": "££"
+      }
+    </script>
 
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primaryPurple: '#6b21a8',
-            primaryBlue: '#1e40af',
-            accentPurple: '#7c3aed',
-            accentBlue: '#2563eb',
-            softPurple: '#f3e8ff',
-            softBlue: '#e0f2fe',
-          },
-          boxShadow: {
-            luxe: '0 25px 60px rgba(30, 41, 59, 0.15)',
-            soft: '0 12px 30px rgba(76, 29, 149, 0.12)',
-          },
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primaryPurple: '#5b2ea5',
+              primaryBlue: '#1d4ed8',
+              accentPurple: '#7c3aed',
+              accentBlue: '#2563eb',
+              softPurple: '#f3e8ff',
+              softBlue: '#e0f2fe',
+              brandDark: '#16112d',
+              brandCyan: '#67e8f9',
+              brandGold: '#f9c74f'
+            },
+            boxShadow: {
+              luxe: '0 25px 60px rgba(22, 17, 45, 0.18)',
+              soft: '0 12px 30px rgba(91, 46, 165, 0.12)'
+            }
+          }
         }
       }
-    }
-  </script>
+    </script>
 
-  <style>
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: Arial, sans-serif;
-      background: #f8fafc;
-      color: #1f2937;
-    }
-
-    .brand-gradient {
-      background: linear-gradient(135deg, #1e1135 0%, #4c1d95 30%, #1e40af 100%);
-    }
-
-    .soft-card {
-      background: rgba(255,255,255,0.96);
-      border: 1px solid rgba(148,163,184,0.15);
-      box-shadow: 0 18px 40px rgba(15,23,42,0.08);
-    }
-
-    .section-line {
-      position: relative;
-      display: inline-block;
-    }
-
-    .section-line::after {
-      content: "";
-      display: block;
-      width: 90px;
-      height: 3px;
-      background: linear-gradient(90deg, #8b5cf6, #60a5fa);
-      margin: 16px auto 0;
-      border-radius: 999px;
-    }
-
-    .whatsapp-float {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 1000;
-      width: 62px;
-      height: 62px;
-      border-radius: 50%;
-      background: #25d366;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 14px 28px rgba(37, 211, 102, 0.45);
-      transition: transform 0.2s ease;
-    }
-
-    .whatsapp-float:hover {
-      transform: scale(1.06);
-    }
-
-    .mobile-menu {
-      display: none;
-    }
-
-    .mobile-menu.open {
-      display: block;
-    }
-  </style>
-</head>
-
-<body class="antialiased">
-  <header class="brand-gradient relative overflow-hidden text-white">
-    <div class="absolute inset-0 opacity-20">
-      <div class="absolute -left-12 top-10 h-64 w-64 rounded-full bg-purple-500 blur-3xl"></div>
-      <div class="absolute right-0 top-0 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl"></div>
-    </div>
-
-    <div class="relative z-10 mx-auto max-w-7xl px-4 py-4 md:px-8">
-      <nav class="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/10 bg-white/5 px-3 py-3 shadow-soft">
-        <div class="flex items-center gap-3">
-          <div class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/15 bg-white/10">
-            <i class="fa-solid fa-house-signal text-lg text-cyan-300"></i>
-          </div>
-          <div>
-            <p class="text-[9px] uppercase tracking-[0.3em] text-purple-200">Seamless</p>
-            <p class="text-[11px] font-bold text-white">Network Solutions</p>
-          </div>
-        </div>
-
-        <div class="hidden items-center gap-8 text-sm text-white/80 md:flex">
-          <a href="#home" class="hover:text-white">Home</a>
-          <a href="#about" class="hover:text-white">About</a>
-          <a href="#services" class="hover:text-white">Services</a>
-          <a href="#why-us" class="hover:text-white">Why Us</a>
-          <a href="#contact" class="hover:text-white">Contact</a>
-        </div>
-
-        <div class="flex items-center gap-2">
-          <a href="tel:07463590900" class="hidden rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.18em] text-white transition hover:bg-white hover:text-purple-900 md:inline-flex">
-            Seamless Network Solutions
-          </a>
-
-          <button id="menuToggle" type="button" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 p-2 text-white md:hidden" aria-label="Open menu">
-            <i class="fa-solid fa-bars"></i>
-          </button>
-        </div>
-      </nav>
-
-      <div id="mobileMenu" class="mobile-menu mt-3 rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft md:hidden">
-        <div class="flex flex-col gap-3 text-sm text-white/80">
-          <a href="#home" class="hover:text-white">Home</a>
-          <a href="#about" class="hover:text-white">About</a>
-          <a href="#services" class="hover:text-white">Services</a>
-          <a href="#why-us" class="hover:text-white">Why Us</a>
-          <a href="#contact" class="hover:text-white">Contact</a>
-          <a href="tel:07463590900" class="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-900">
-            <i class="fa-solid fa-phone"></i>
-            Seamless Network Solutions
-          </a>
-        </div>
-      </div>
-
-      <div id="home" class="mx-auto max-w-6xl py-12 md:py-20">
-        <div class="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
-          <div class="text-center lg:text-left">
-            <p class="mb-4 text-[10px] font-bold uppercase tracking-[0.38em] text-purple-200">
-              Smart Connected Secure
-            </p>
-            <h1 class="text-4xl font-black leading-tight sm:text-5xl md:text-6xl">
-              Smart networks for smarter homes.
-            </h1>
-            <p class="mt-5 text-base leading-relaxed text-purple-100 md:text-lg">
-              Reliable Wi‑Fi, secure CCTV, and seamless smart connectivity designed to make modern living feel easier, safer, and more connected.
-            </p>
-
-            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
-              <a href="#contact" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-bold text-slate-900 shadow-lg transition hover:scale-[1.02]">
-                Book a Consultation
-              </a>
-              <a href="tel:07463590900" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10">
-                Seamless Network Solutions
-              </a>
-            </div>
-          </div>
-
-          <div class="rounded-[30px] border border-white/10 bg-white/5 p-4 shadow-luxe backdrop-blur-sm">
-            <div class="rounded-[24px] bg-white/5 p-4">
-              <div class="mb-5 flex items-center justify-between">
-                <div>
-                  <p class="text-[9px] uppercase tracking-[0.28em] text-cyan-300">Network Specialist</p>
-                  <h2 class="mt-2 text-xl font-bold text-white">Kevin Arkwell</h2>
-                </div>
-                <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-xl text-cyan-300">
-                  <i class="fa-solid fa-wifi"></i>
-                </div>
-              </div>
-
-              <div class="space-y-3 text-sm text-purple-100">
-                <a href="tel:07463590900" class="flex items-center gap-3 transition hover:text-white">
-                  <i class="fa-solid fa-phone text-cyan-300"></i>
-                  <span>Seamless Network Solutions</span>
-                </a>
-
-                <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk" class="flex items-center gap-3 break-all transition hover:text-white">
-                  <i class="fa-solid fa-envelope text-cyan-300"></i>
-                  <span>Seamless Network Solutions</span>
-                </a>
-
-                <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-location-dot text-cyan-300"></i>
-                  <span>Birmingham, West Midlands</span>
-                </div>
-              </div>
-
-              <div class="mt-6 flex flex-col gap-3">
-                <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#25d366] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#1fc75c]">
-                  <i class="fa-brands fa-whatsapp"></i>
-                  Seamless Network Solutions
-                </a>
-
-                <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-3 text-sm font-bold text-white transition hover:bg-white/10">
-                  <i class="fa-solid fa-envelope"></i>
-                  Seamless Network Solutions
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main class="mx-auto max-w-7xl px-4 py-16 md:px-8">
-    <section id="about" class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-      <div class="soft-card rounded-[28px] p-6 md:p-8">
-        <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">About us</p>
-        <h2 class="mt-3 text-3xl font-black text-slate-900">Smart, secure, and beautifully simple.</h2>
-        <p class="mt-5 text-base leading-relaxed text-slate-600">
-          Seamless Network Solutions helps homeowners enjoy faster internet, stronger Wi‑Fi, smarter security, and better connectivity across the home. We provide practical, high-quality solutions tailored to the way you live.
-        </p>
-
-        <div class="mt-6 grid gap-4 sm:grid-cols-2">
-          <div class="rounded-2xl bg-purple-50 p-4">
-            <i class="fa-solid fa-shield-halved text-xl text-primaryPurple"></i>
-            <p class="mt-3 font-bold text-slate-900">Security First</p>
-            <p class="mt-2 text-sm text-slate-600">Reliable protection for your home and peace of mind.</p>
-          </div>
-
-          <div class="rounded-2xl bg-blue-50 p-4">
-            <i class="fa-solid fa-gauge-high text-xl text-primaryBlue"></i>
-            <p class="mt-3 font-bold text-slate-900">Built for Performance</p>
-            <p class="mt-2 text-sm text-slate-600">Stronger speed and smoother connectivity throughout the property.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="soft-card rounded-[28px] p-6 md:p-8">
-        <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">Our promise</p>
-        <h3 class="mt-3 text-2xl font-black text-slate-900">Why people choose us</h3>
-
-        <ul class="mt-6 space-y-4">
-          <li class="flex items-start gap-3">
-            <i class="fa-solid fa-circle-check mt-1 text-primaryPurple"></i>
-            <span class="text-slate-700">Tailored connectivity solutions based on your home and lifestyle.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fa-solid fa-circle-check mt-1 text-primaryPurple"></i>
-            <span class="text-slate-700">Clean, professional installation with no unnecessary stress.</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <i class="fa-solid fa-circle-check mt-1 text-primaryPurple"></i>
-            <span class="text-slate-700">Friendly support and practical advice long after installation.</span>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="services" class="mt-20">
-      <div class="text-center">
-        <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">What we offer</p>
-        <h2 class="section-line mt-3 text-3xl font-black text-slate-900 md:text-4xl">
-          Complete home connectivity services
-        </h2>
-      </div>
-
-      <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <article class="soft-card rounded-[28px] p-6 transition hover:-translate-y-1">
-          <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-50 text-2xl text-primaryPurple">
-            <i class="fa-solid fa-wifi"></i>
-          </div>
-          <h3 class="mb-3 text-xl font-bold text-slate-900">Home Wi‑Fi</h3>
-          <p class="text-sm leading-relaxed text-slate-600">
-            Strong, stable internet across the whole home for smooth streaming, work, and everyday use.
-          </p>
-        </article>
-
-        <article class="soft-card rounded-[28px] p-6 transition hover:-translate-y-1">
-          <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-primaryBlue">
-            <i class="fa-solid fa-video"></i>
-          </div>
-          <h3 class="mb-3 text-xl font-bold text-slate-900">CCTV Systems</h3>
-          <p class="text-sm leading-relaxed text-slate-600">
-            High-quality cameras designed to keep your property protected and monitored.
-          </p>
-        </article>
-
-        <article class="soft-card rounded-[28px] p-6 transition hover:-translate-y-1">
-          <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">
-            <i class="fa-solid fa-tower-broadcast"></i>
-          </div>
-          <h3 class="mb-3 text-xl font-bold text-slate-900">Wireless Access Points</h3>
-          <p class="text-sm leading-relaxed text-slate-600">
-            Better signal strength and seamless coverage indoors and outdoors for modern living.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="why-us" class="mt-20 rounded-[30px] bg-gradient-to-r from-primaryPurple to-primaryBlue p-6 text-white shadow-luxe md:p-10">
-      <div class="text-center">
-        <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-purple-200">The advantage</p>
-        <h2 class="mt-3 text-2xl font-black md:text-3xl">Designed for effortless living</h2>
-      </div>
-
-      <div class="mt-8 grid gap-4 text-center md:grid-cols-4">
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-          <i class="fa-solid fa-shield-halved mb-3 text-2xl text-cyan-300"></i>
-          <p class="text-xs font-bold uppercase tracking-[0.2em]">Secure</p>
-        </div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-          <i class="fa-solid fa-gauge-high mb-3 text-2xl text-cyan-300"></i>
-          <p class="text-xs font-bold uppercase tracking-[0.2em]">Fast</p>
-        </div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-          <i class="fa-solid fa-screwdriver-wrench mb-3 text-2xl text-cyan-300"></i>
-          <p class="text-xs font-bold uppercase tracking-[0.2em]">Professional</p>
-        </div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-          <i class="fa-solid fa-headset mb-3 text-2xl text-cyan-300"></i>
-          <p class="text-xs font-bold uppercase tracking-[0.2em]">Support</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="mt-20">
-      <div class="text-center">
-        <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">How it works</p>
-        <h2 class="section-line mt-3 text-3xl font-black text-slate-900">A simple, stress-free process</h2>
-      </div>
-
-      <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <div class="soft-card rounded-[26px] p-6 text-center">
-          <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-50 text-lg font-black text-primaryPurple">1</div>
-          <h3 class="text-lg font-bold text-slate-900">Tell us your needs</h3>
-          <p class="mt-2 text-sm text-slate-600">We listen to your home setup, goals, and any issues you need solved.</p>
-        </div>
-
-        <div class="soft-card rounded-[26px] p-6 text-center">
-          <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-lg font-black text-primaryBlue">2</div>
-          <h3 class="text-lg font-bold text-slate-900">We recommend the best solution</h3>
-          <p class="mt-2 text-sm text-slate-600">We suggest the right Wi‑Fi, CCTV or access point setup for your property.</p>
-        </div>
-
-        <div class="soft-card rounded-[26px] p-6 text-center">
-          <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-cyan-50 text-lg font-black text-cyan-700">3</div>
-          <h3 class="text-lg font-bold text-slate-900">We install and support</h3>
-          <p class="mt-2 text-sm text-slate-600">Your system is installed neatly, tested properly, and supported afterward.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="mt-20">
-      <div class="text-center">
-        <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">Customer feedback</p>
-        <h2 class="section-line mt-3 text-3xl font-black text-slate-900">Trusted by homeowners</h2>
-      </div>
-
-      <div class="mt-10 grid gap-6 md:grid-cols-2">
-        <div class="soft-card rounded-[26px] p-6">
-          <div class="mb-4 flex text-yellow-400">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="text-sm leading-relaxed text-slate-600">
-            “The Wi‑Fi throughout our home is now so much better. The whole process was straightforward, and the service felt very professional.”
-          </p>
-          <p class="mt-4 font-bold text-slate-900">Sarah M.</p>
-        </div>
-
-        <div class="soft-card rounded-[26px] p-6">
-          <div class="mb-4 flex text-yellow-400">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="text-sm leading-relaxed text-slate-600">
-            “We needed a better security setup and a stronger signal around the property. The recommendations were clear and the installation was excellent.”
-          </p>
-          <p class="mt-4 font-bold text-slate-900">James R.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="mt-20">
-      <div class="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-        <div class="soft-card rounded-[28px] p-6 md:p-8">
-          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">Get in touch</p>
-          <h2 class="mt-3 text-3xl font-black text-slate-900">Let’s build your perfect home setup</h2>
-          <p class="mt-4 text-sm leading-relaxed text-slate-600">
-            Whether you need a stronger network, CCTV, or better coverage, we’re here to help.
-          </p>
-
-          <div class="mt-6 space-y-4 text-sm text-slate-700">
-            <a href="tel:07463590900" class="flex items-center gap-3 transition hover:text-slate-900">
-              <i class="fa-solid fa-phone text-primaryPurple"></i>
-              <span>Seamless Network Solutions</span>
-            </a>
-
-            <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk" class="flex items-center gap-3 break-all transition hover:text-slate-900">
-              <i class="fa-solid fa-envelope text-primaryPurple"></i>
-              <span>Seamless Network Solutions</span>
-            </a>
-
-            <div class="flex items-center gap-3">
-              <i class="fa-solid fa-location-dot text-primaryPurple"></i>
-              <span>Birmingham, West Midlands</span>
-            </div>
-          </div>
-
-          <div class="mt-6 flex flex-col gap-3 sm:flex-row">
-            <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#25d366] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#1fc75c]">
-              <i class="fa-brands fa-whatsapp text-lg"></i>
-              Seamless Network Solutions
-            </a>
-
-            <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-800 transition hover:bg-slate-50">
-              <i class="fa-solid fa-envelope"></i>
-              Seamless Network Solutions
-            </a>
-          </div>
-        </div>
-
-        <div class="soft-card rounded-[28px] p-6 md:p-8">
-          <form id="contactForm" class="space-y-4">
-            <div>
-              <label for="name" class="mb-2 block text-sm font-medium text-slate-700">Your Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-primaryPurple focus:ring-2 focus:ring-purple-200" required />
-            </div>
-
-            <div>
-              <label for="phone" class="mb-2 block text-sm font-medium text-slate-700">Phone Number</label>
-              <input type="tel" id="phone" name="phone" placeholder="Your phone number" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-primaryPurple focus:ring-2 focus:ring-purple-200" />
-            </div>
-
-            <div>
-              <label for="email" class="mb-2 block text-sm font-medium text-slate-700">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="your@email.com" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-primaryPurple focus:ring-2 focus:ring-purple-200" required />
-            </div>
-
-            <div>
-              <label for="message" class="mb-2 block text-sm font-medium text-slate-700">Your Message</label>
-              <textarea id="message" name="message" rows="5" placeholder="Tell us what you need help with..." class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-primaryPurple focus:ring-2 focus:ring-purple-200" required></textarea>
-            </div>
-
-            <button type="submit" class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-primaryPurple to-primaryBlue px-6 py-3 text-sm font-bold text-white transition hover:opacity-95">
-              Send Enquiry
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="border-t border-slate-200 bg-white px-4 py-8">
-    <div class="mx-auto max-w-6xl text-center">
-      <p class="text-[10px] font-bold uppercase tracking-[0.28em] text-primaryPurple">
-        One connection. Complete peace of mind.
-      </p>
-      <p class="mt-2 text-xs text-slate-500">
-        &copy; 2026 Seamless Network Solutions. All rights reserved.
-      </p>
-    </div>
-  </footer>
-
-  <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
-    <i class="fa-brands fa-whatsapp text-2xl"></i>
-  </a>
-
-  <script>
-    document.addEventListener('contextmenu', function (e) {
-      e.preventDefault();
-    });
-
-    document.addEventListener('keydown', function (e) {
-      if (
-        e.key === 'F12' ||
-        (e.ctrlKey && e.key === 'u') ||
-        (e.ctrlKey && e.key === 's') ||
-        (e.ctrlKey && e.shiftKey && e.key === 'I')
-      ) {
-        e.preventDefault();
+    <style>
+      :root {
+        --brand-dark: #16112d;
+        --brand-purple: #5b2ea5;
+        --brand-blue: #1d4ed8;
+        --brand-cyan: #67e8f9;
+        --brand-gold: #f9c74f;
+        --brand-soft: #f4f1ff;
       }
-    });
 
-    const menuToggle = document.getElementById('menuToggle');
-    const mobileMenu = document.getElementById('mobileMenu');
+      html {
+        scroll-behavior: smooth;
+      }
 
-    if (menuToggle && mobileMenu) {
-      menuToggle.addEventListener('click', () => {
-        mobileMenu.classList.toggle('open');
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(180deg, #f7f4ff 0%, #eef6ff 100%);
+        color: #1f2937;
+      }
+
+      .brand-gradient {
+        background: linear-gradient(135deg, #160f2d 0%, #3a1b73 36%, #1d4ed8 100%);
+      }
+
+      .soft-card {
+        background: rgba(255, 255, 255, 0.96);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+      }
+
+      .section-line {
+        position: relative;
+        display: inline-block;
+      }
+
+      .section-line::after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(90deg, var(--brand-purple), var(--brand-cyan));
+        margin: 16px auto 0;
+        border-radius: 999px;
+      }
+
+      .whatsapp-float {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 1000;
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background: #25d366;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 14px 28px rgba(37, 211, 102, 0.45);
+        transition: transform 0.2s ease;
+      }
+
+      .whatsapp-float:hover {
+        transform: scale(1.06);
+      }
+
+      .mobile-menu {
+        display: none;
+      }
+
+      .mobile-menu.open {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body class="antialiased">
+    <header class="brand-gradient relative overflow-hidden text-white">
+      <div class="absolute inset-0 opacity-20">
+        <div class="absolute -left-12 top-10 h-64 w-64 rounded-full bg-violet-500 blur-3xl"></div>
+        <div class="absolute right-0 top-0 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl"></div>
+      </div>
+
+      <div class="relative z-10 mx-auto max-w-7xl px-4 py-4 md:px-8">
+        <nav class="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/10 bg-white/5 px-3 py-3 shadow-soft">
+          <div class="flex items-center gap-3">
+            <div class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/15 bg-white/10">
+              <i class="fa-solid fa-house-signal text-lg text-cyan-300"></i>
+            </div>
+            <div>
+              <p class="text-[9px] uppercase tracking-[0.3em] text-violet-200">Seamless</p>
+              <p class="text-[11px] font-bold text-white">Network Solutions</p>
+            </div>
+          </div>
+
+          <div class="hidden items-center gap-8 text-sm text-white/80 md:flex">
+            <a href="#home" class="hover:text-white">Home</a>
+            <a href="#about" class="hover:text-white">About</a>
+            <a href="#services" class="hover:text-white">Services</a>
+            <a href="#why-us" class="hover:text-white">Why Us</a>
+            <a href="#contact" class="hover:text-white">Contact</a>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <a href="tel:07463590900" class="hidden rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.18em] text-white transition hover:bg-white hover:text-brandDark md:inline-flex">
+              Call Now
+            </a>
+
+            <button id="menuToggle" type="button" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 p-2 text-white md:hidden" aria-label="Open menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+
+        <div id="mobileMenu" class="mobile-menu mt-3 rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft md:hidden">
+          <div class="flex flex-col gap-3 text-sm text-white/80">
+            <a href="#home" class="hover:text-white">Home</a>
+            <a href="#about" class="hover:text-white">About</a>
+            <a href="#services" class="hover:text-white">Services</a>
+            <a href="#why-us" class="hover:text-white">Why Us</a>
+            <a href="#contact" class="hover:text-white">Contact</a>
+            <a href="tel:07463590900" class="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-900">
+              <i class="fa-solid fa-phone"></i>
+              Call Now
+            </a>
+          </div>
+        </div>
+
+        <div id="home" class="mx-auto max-w-6xl py-12 md:py-20">
+          <div class="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+            <div class="text-center lg:text-left">
+              <p class="mb-4 text-[10px] font-bold uppercase tracking-[0.38em] text-violet-200">
+                Smart Connected Secure
+              </p>
+              <h1 class="text-4xl font-black leading-tight sm:text-5xl md:text-6xl">
+                Smart networks for smarter homes.
+              </h1>
+              <p class="mt-5 text-base leading-relaxed text-violet-100 md:text-lg">
+                Reliable Wi‑Fi, secure CCTV, and seamless smart connectivity designed to make modern living feel easier, safer, and more connected.
+              </p>
+
+              <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
+                <a href="#contact" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-bold text-slate-900 shadow-lg transition hover:scale-[1.02]">
+                  Book a Consultation
+                </a>
+                <a href="tel:07463590900" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold text-white transition hover:bg-white hover:text-brandDark">
+                  Call Seamless
+                </a>
+              </div>
+            </div>
+
+            <div class="rounded-[30px] border border-white/10 bg-white/5 p-4 shadow-luxe backdrop-blur-sm">
+              <div class="rounded-[24px] bg-white/5 p-4">
+                <div class="mb-5 flex items-center justify-between">
+                  <div>
+                    <p class="text-[9px] uppercase tracking-[0.28em] text-cyan-300">Network Specialist</p>
+                    <h2 class="mt-2 text-xl font-bold text-white">Kevin Arkwell</h2>
+                  </div>
+                  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-xl text-cyan-300">
+                    <i class="fa-solid fa-wifi"></i>
+                  </div>
+                </div>
+
+                <div class="space-y-3 text-sm text-violet-100">
+                  <a href="tel:07463590900" class="flex items-center gap-3 transition hover:text-white">
+                    <i class="fa-solid fa-phone text-cyan-300"></i>
+                    <span>07463 590900</span>
+                  </a>
+
+                  <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk" class="flex items-center gap-3 break-all transition hover:text-white">
+                    <i class="fa-solid fa-envelope text-cyan-300"></i>
+                    <span>kevin-arkwell@seamlessnetworksolutions.co.uk</span>
+                  </a>
+
+                  <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-location-dot text-cyan-300"></i>
+                    <span>Birmingham, West Midlands</span>
+                  </div>
+                </div>
+
+                <div class="mt-6 flex flex-col gap-3">
+                  <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-lg">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp Enquiry
+                  </a>
+
+                  <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/10 px-5 py-3 text-sm font-bold text-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email Us
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-16 md:px-8">
+      <section id="about" class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="soft-card rounded-[28px] p-6 md:p-8">
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">About us</p>
+          <h2 class="mt-3 text-3xl font-black text-slate-900">Smart, secure, and beautifully simple.</h2>
+          <p class="mt-5 text-base leading-relaxed text-slate-600">
+            Seamless Network Solutions helps homeowners enjoy faster internet, stronger Wi‑Fi, smarter security, and better connectivity across the home. We provide practical, high-quality solutions designed around how you live.
+          </p>
+
+          <div class="mt-6 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl bg-violet-50 p-4">
+              <i class="fa-solid fa-shield-halved text-xl text-primaryPurple"></i>
+              <p class="mt-3 font-bold text-slate-900">Security First</p>
+              <p class="mt-2 text-sm text-slate-600">Reliable protection for your home and peace of mind.</p>
+            </div>
+
+            <div class="rounded-2xl bg-blue-50 p-4">
+              <i class="fa-solid fa-gauge-high text-xl text-primaryBlue"></i>
+              <p class="mt-3 font-bold text-slate-900">Built for Performance</p>
+              <p class="mt-2 text-sm text-slate-600">Stronger speed and smoother connectivity throughout the property.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="soft-card rounded-[28px] p-6 md:p-8">
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">Our promise</p>
+          <h3 class="mt-3 text-2xl font-black text-slate-900">Why people choose us</h3>
+
+          <ul class="mt-6 space-y-4">
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-circle-check mt-1 text-primaryPurple"></i>
+              <span class="text-slate-700">Tailored connectivity solutions based on your home and lifestyle.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-circle-check mt-1 text-primaryPurple"></i>
+              <span class="text-slate-700">Clean, professional installation with no unnecessary stress.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-circle-check mt-1 text-primaryPurple"></i>
+              <span class="text-slate-700">Friendly support and practical advice long after installation.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="services" class="mt-20">
+        <div class="text-center">
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">What we offer</p>
+          <h2 class="section-line mt-3 text-3xl font-black text-slate-900 md:text-4xl">
+            Complete home connectivity services
+          </h2>
+        </div>
+
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <article class="soft-card rounded-[28px] p-6 transition hover:-translate-y-1">
+            <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-violet-50 text-2xl text-primaryPurple">
+              <i class="fa-solid fa-wifi"></i>
+            </div>
+            <h3 class="mb-3 text-xl font-bold text-slate-900">Home Wi‑Fi</h3>
+            <p class="text-sm leading-relaxed text-slate-600">
+              Strong, stable internet across the whole home for smooth streaming, work, and everyday use.
+            </p>
+          </article>
+
+          <article class="soft-card rounded-[28px] p-6 transition hover:-translate-y-1">
+            <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-2xl text-primaryBlue">
+              <i class="fa-solid fa-video"></i>
+            </div>
+            <h3 class="mb-3 text-xl font-bold text-slate-900">CCTV Systems</h3>
+            <p class="text-sm leading-relaxed text-slate-600">
+              High-quality cameras designed to keep your property protected and monitored.
+            </p>
+          </article>
+
+          <article class="soft-card rounded-[28px] p-6 transition hover:-translate-y-1">
+            <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-cyan-50 text-2xl text-cyan-700">
+              <i class="fa-solid fa-tower-broadcast"></i>
+            </div>
+            <h3 class="mb-3 text-xl font-bold text-slate-900">Wireless Access Points</h3>
+            <p class="text-sm leading-relaxed text-slate-600">
+              Better signal strength and seamless coverage indoors and outdoors for modern living.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="why-us" class="mt-20 rounded-[30px] bg-gradient-to-r from-primaryPurple to-primaryBlue p-6 text-white shadow-luxe md:p-10">
+        <div class="text-center">
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-violet-200">The advantage</p>
+          <h2 class="mt-3 text-2xl font-black md:text-3xl">Designed for effortless living</h2>
+        </div>
+
+        <div class="mt-8 grid gap-4 text-center md:grid-cols-4">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <i class="fa-solid fa-shield-halved mb-3 text-2xl text-cyan-300"></i>
+            <p class="text-xs font-bold uppercase tracking-[0.2em]">Secure</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <i class="fa-solid fa-gauge-high mb-3 text-2xl text-cyan-300"></i>
+            <p class="text-xs font-bold uppercase tracking-[0.2em]">Fast</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <i class="fa-solid fa-screwdriver-wrench mb-3 text-2xl text-cyan-300"></i>
+            <p class="text-xs font-bold uppercase tracking-[0.2em]">Professional</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <i class="fa-solid fa-headset mb-3 text-2xl text-cyan-300"></i>
+            <p class="text-xs font-bold uppercase tracking-[0.2em]">Support</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-20">
+        <div class="text-center">
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">How it works</p>
+          <h2 class="section-line mt-3 text-3xl font-black text-slate-900">A simple, stress-free process</h2>
+        </div>
+
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <div class="soft-card rounded-[26px] p-6 text-center">
+            <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-violet-50 text-lg font-black text-primaryPurple">1</div>
+            <h3 class="text-lg font-bold text-slate-900">Tell us your needs</h3>
+            <p class="mt-2 text-sm text-slate-600">We listen to your home setup, goals, and any issues you need solved.</p>
+          </div>
+
+          <div class="soft-card rounded-[26px] p-6 text-center">
+            <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-lg font-black text-primaryBlue">2</div>
+            <h3 class="text-lg font-bold text-slate-900">We recommend the best solution</h3>
+            <p class="mt-2 text-sm text-slate-600">We suggest the right Wi‑Fi, CCTV or access point setup for your property.</p>
+          </div>
+
+          <div class="soft-card rounded-[26px] p-6 text-center">
+            <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-cyan-50 text-lg font-black text-cyan-700">3</div>
+            <h3 class="text-lg font-bold text-slate-900">We install and support</h3>
+            <p class="mt-2 text-sm text-slate-600">Your system is installed neatly, tested properly, and supported afterward.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-20">
+        <div class="text-center">
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">Customer feedback</p>
+          <h2 class="section-line mt-3 text-3xl font-black text-slate-900">Trusted by homeowners</h2>
+        </div>
+
+        <div class="mt-10 grid gap-6 md:grid-cols-2">
+          <div class="soft-card rounded-[26px] p-6">
+            <div class="mb-4 flex text-yellow-400">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-sm leading-relaxed text-slate-600">
+              “The Wi‑Fi throughout our home is now so much better. The whole process was straightforward, and the service felt very professional.”
+            </p>
+            <p class="mt-4 font-bold text-slate-900">Sarah M.</p>
+          </div>
+
+          <div class="soft-card rounded-[26px] p-6">
+            <div class="mb-4 flex text-yellow-400">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-sm leading-relaxed text-slate-600">
+              “We needed a better security setup and a stronger signal around the property. The recommendations were clear and the installation was excellent.”
+            </p>
+            <p class="mt-4 font-bold text-slate-900">James R.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-20">
+        <div class="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+          <div class="soft-card rounded-[28px] p-6 md:p-8">
+            <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-primaryPurple">Get in touch</p>
+            <h2 class="mt-3 text-3xl font-black text-slate-900">Let’s build your perfect home setup</h2>
+            <p class="mt-4 text-sm leading-relaxed text-slate-600">
+              Whether you need a stronger network, CCTV, or better coverage, we’re here to help.
+            </p>
+
+            <div class="mt-6 space-y-4 text-sm text-slate-700">
+              <a href="tel:07463590900" class="flex items-center gap-3 transition hover:text-slate-900">
+                <i class="fa-solid fa-phone text-primaryPurple"></i>
+                <span>07463 590900</span>
+              </a>
+
+              <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk" class="flex items-center gap-3 break-all transition hover:text-slate-900">
+                <i class="fa-solid fa-envelope text-primaryPurple"></i>
+                <span>kevin-arkwell@seamlessnetworksolutions.co.uk</span>
+              </a>
+
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-location-dot text-primaryPurple"></i>
+                <span>Birmingham, West Midlands</span>
+              </div>
+            </div>
+
+            <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+              <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-md">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                WhatsApp
+              </a>
+
+              <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-800">
+                <i class="fa-solid fa-envelope"></i>
+                Email Us
+              </a>
+            </div>
+          </div>
+
+          <div class="soft-card rounded-[28px] p-6 md:p-8">
+            <form id="contactForm" class="space-y-4">
+              <div>
+                <label for="name" class="mb-2 block text-sm font-medium text-slate-700">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-brandPurple" />
+              </div>
+
+              <div>
+                <label for="phone" class="mb-2 block text-sm font-medium text-slate-700">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-brandPurple" />
+              </div>
+
+              <div>
+                <label for="email" class="mb-2 block text-sm font-medium text-slate-700">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-brandPurple" />
+              </div>
+
+              <div>
+                <label for="message" class="mb-2 block text-sm font-medium text-slate-700">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us what you need help with..." class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 shadow-sm outline-none transition focus:border-brandPurple"></textarea>
+              </div>
+
+              <button type="submit" class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-brandPurple to-brandBlue px-6 py-3 text-sm font-bold text-white transition hover:brightness-110">
+                Send Enquiry
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white px-4 py-8">
+      <div class="mx-auto max-w-6xl text-center">
+        <p class="text-[10px] font-bold uppercase tracking-[0.28em] text-brandPurple">
+          One connection. Complete peace of mind.
+        </p>
+        <p class="mt-2 text-xs text-slate-500">
+          &copy; 2026 Seamless Network Solutions. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+      <i class="fa-brands fa-whatsapp text-2xl"></i>
+    </a>
+
+    <script>
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
       });
-    }
 
-    const form = document.getElementById('contactForm');
-    if (form) {
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
+      document.addEventListener('keydown', function (e) {
+        const blockedKeys = ['F12', 'F5'];
+        const ctrlBlocked = ['u', 's'];
 
-        const name = document.getElementById('name').value.trim();
-        const phone = document.getElementById('phone').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const message = document.getElementById('message').value.trim();
-
-        const subject = encodeURIComponent('Website Enquiry from ' + name);
-        const body = encodeURIComponent(
-          'Name: ' + name + '\n' +
-          'Phone: ' + (phone || 'Not provided') + '\n' +
-          'Email: ' + email + '\n\n' +
-          'Message:\n' + message
-        );
-
-        window.location.href = 'mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=' + subject + '&body=' + body;
+        if (blockedKeys.includes(e.key) || (e.ctrlKey && ctrlBlocked.includes(e.key.toLowerCase())) || (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i')) {
+          e.preventDefault();
+        }
       });
-    }
-  </script>
-</body>
+
+      const menuToggle = document.getElementById('menuToggle');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', () => {
+          mobileMenu.classList.toggle('open');
+        });
+      }
+
+      const form = document.getElementById('contactForm');
+      if (form) {
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          const name = document.getElementById('name').value.trim();
+          const phone = document.getElementById('phone').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const message = document.getElementById('message').value.trim();
+
+          const subject = encodeURIComponent('Website Enquiry from ' + name);
+          const body = encodeURIComponent(
+            'Name: ' + name + '\n' +
+            'Phone: ' + (phone || 'Not provided') + '\n' +
+            'Email: ' + email + '\n\n' +
+            'Message:\n' + message
+          );
+
+          window.location.href = 'mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=' + subject + '&body=' + body;
+        });
+      }
+    </script>
+  </body>
 </html>
