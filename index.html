@@ -113,6 +113,69 @@
         border-radius: 999px;
       }
 
+      .contact-highlight {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        width: 100%;
+        padding: 0.95rem 1rem;
+        border-radius: 1rem;
+        border: 1px solid rgba(91, 46, 165, 0.18);
+        background: linear-gradient(135deg, rgba(91, 46, 165, 0.08), rgba(29, 78, 216, 0.08));
+        box-shadow: 0 8px 24px rgba(91, 46, 165, 0.08);
+        color: #1f2937;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+
+      .contact-highlight:hover {
+        transform: translateY(-2px);
+        border-color: rgba(91, 46, 165, 0.38);
+        box-shadow: 0 14px 28px rgba(91, 46, 165, 0.12);
+      }
+
+      .contact-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.75rem;
+        height: 2.75rem;
+        border-radius: 0.9rem;
+        background: linear-gradient(135deg, var(--brand-purple), var(--brand-blue));
+        color: #fff;
+        font-size: 1.1rem;
+        flex-shrink: 0;
+      }
+
+      .action-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.65rem;
+        border-radius: 999px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+      }
+
+      .action-button:hover {
+        transform: translateY(-2px);
+        filter: brightness(1.05);
+      }
+
+      .action-button.primary {
+        background: linear-gradient(135deg, var(--brand-purple), var(--brand-blue));
+        color: #fff;
+        box-shadow: 0 12px 24px rgba(91, 46, 165, 0.22);
+      }
+
+      .action-button.secondary {
+        background: #fff;
+        color: var(--brand-dark);
+        border: 1px solid rgba(91, 46, 165, 0.18);
+        box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+      }
+
       .whatsapp-float {
         position: fixed;
         right: 18px;
@@ -249,12 +312,12 @@
                 </div>
 
                 <div class="mt-6 flex flex-col gap-3">
-                  <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-lg">
+                  <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="action-button primary px-5 py-3 text-sm">
                     <i class="fa-brands fa-whatsapp"></i>
                     WhatsApp Enquiry
                   </a>
 
-                  <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/10 px-5 py-3 text-sm font-bold text-white">
+                  <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="action-button secondary px-5 py-3 text-sm">
                     <i class="fa-solid fa-envelope"></i>
                     Email Us
                   </a>
@@ -452,29 +515,29 @@
             </p>
 
             <div class="mt-6 space-y-4 text-sm text-slate-700">
-              <a href="tel:07463590900" class="flex items-center gap-3 transition hover:text-slate-900">
-                <i class="fa-solid fa-phone text-primaryPurple"></i>
+              <a href="tel:07463590900" class="contact-highlight">
+                <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
                 <span>07463 590900</span>
               </a>
 
-              <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk" class="flex items-center gap-3 break-all transition hover:text-slate-900">
-                <i class="fa-solid fa-envelope text-primaryPurple"></i>
+              <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk" class="contact-highlight">
+                <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
                 <span>kevin-arkwell@seamlessnetworksolutions.co.uk</span>
               </a>
 
-              <div class="flex items-center gap-3">
-                <i class="fa-solid fa-location-dot text-primaryPurple"></i>
+              <div class="contact-highlight">
+                <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
                 <span>Birmingham, West Midlands</span>
               </div>
             </div>
 
             <div class="mt-6 flex flex-col gap-3 sm:flex-row">
-              <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-md">
+              <a href="https://wa.me/447463590900?text=Hello%20Seamless%20Network%20Solutions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="action-button primary px-5 py-3 text-sm">
                 <i class="fa-brands fa-whatsapp text-lg"></i>
                 WhatsApp
               </a>
 
-              <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-800">
+              <a href="mailto:kevin-arkwell@seamlessnetworksolutions.co.uk?subject=Website%20Enquiry" class="action-button secondary px-5 py-3 text-sm">
                 <i class="fa-solid fa-envelope"></i>
                 Email Us
               </a>
